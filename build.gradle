@@ -1,0 +1,22 @@
+
+plugins {
+    id 'groovy'
+    id 'application'
+    id 'idea'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.3'
+    testImplementation 'org.spockframework:spock-core:2.0-M2-groovy-3.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+mainClassName = 'com.github.wololock.Brainfuck'
