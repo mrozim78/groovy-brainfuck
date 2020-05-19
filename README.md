@@ -8,6 +8,12 @@ Run "Hello, World!" program:
 $ ./gradlew --no-daemon run --args="++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
 ```
 
+Run all unit tests:
+
+```
+$ ./gradlew --no-daemon test
+```
+
 Clone empty project to implement your own interpreter:
 
 ```
